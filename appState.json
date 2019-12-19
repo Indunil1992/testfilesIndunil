@@ -10,7 +10,8 @@
         "children": [
           "8fadfb0e-3024-4985-aa4c-52713d846160",
           "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf",
-          "12b83b12-46e4-445d-9ffb-1f1bba0e6703"
+          "12b83b12-46e4-445d-9ffb-1f1bba0e6703",
+          "23644114-c816-40a7-bdf8-aaafa4fbdc9d"
         ],
         "isRemovable": false,
         "filePath": "testfilesIndunil"
@@ -60,14 +61,25 @@
         "children": [],
         "isRemovable": true,
         "filePath": "testfilesIndunil/__init__.py"
+      },
+      "23644114-c816-40a7-bdf8-aaafa4fbdc9d": {
+        "id": "23644114-c816-40a7-bdf8-aaafa4fbdc9d",
+        "parent": "db175b21-767d-4bd5-9124-9ce7cbfa4ae4",
+        "name": "R.r",
+        "type": "R_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testfilesIndunil/R.r"
       }
     },
     "rootNode": "db175b21-767d-4bd5-9124-9ce7cbfa4ae4",
     "openFiles": [
       "8fadfb0e-3024-4985-aa4c-52713d846160",
-      "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf"
+      "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf",
+      "23644114-c816-40a7-bdf8-aaafa4fbdc9d"
     ],
-    "currentFileId": "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf",
+    "currentFileId": "23644114-c816-40a7-bdf8-aaafa4fbdc9d",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -102,7 +114,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576740456782
+    "lastSave": 1576740600853
   },
   "VCS_STATE": {
     "provider": "GitHub",
