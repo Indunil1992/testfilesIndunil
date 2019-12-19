@@ -11,7 +11,8 @@
           "8fadfb0e-3024-4985-aa4c-52713d846160",
           "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf",
           "12b83b12-46e4-445d-9ffb-1f1bba0e6703",
-          "23644114-c816-40a7-bdf8-aaafa4fbdc9d"
+          "23644114-c816-40a7-bdf8-aaafa4fbdc9d",
+          "3129512a-238e-44f6-8402-108202bc262c"
         ],
         "isRemovable": false,
         "filePath": "testfilesIndunil"
@@ -71,15 +72,26 @@
         "children": [],
         "isRemovable": true,
         "filePath": "testfilesIndunil/R.r"
+      },
+      "3129512a-238e-44f6-8402-108202bc262c": {
+        "id": "3129512a-238e-44f6-8402-108202bc262c",
+        "parent": "db175b21-767d-4bd5-9124-9ce7cbfa4ae4",
+        "name": "json.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testfilesIndunil/json.json"
       }
     },
     "rootNode": "db175b21-767d-4bd5-9124-9ce7cbfa4ae4",
     "openFiles": [
       "8fadfb0e-3024-4985-aa4c-52713d846160",
       "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf",
-      "23644114-c816-40a7-bdf8-aaafa4fbdc9d"
+      "23644114-c816-40a7-bdf8-aaafa4fbdc9d",
+      "3129512a-238e-44f6-8402-108202bc262c"
     ],
-    "currentFileId": "23644114-c816-40a7-bdf8-aaafa4fbdc9d",
+    "currentFileId": "3129512a-238e-44f6-8402-108202bc262c",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -114,7 +126,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576740600853
+    "lastSave": 1576740730521
   },
   "VCS_STATE": {
     "provider": "GitHub",
