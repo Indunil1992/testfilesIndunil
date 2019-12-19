@@ -1,0 +1,114 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "db175b21-767d-4bd5-9124-9ce7cbfa4ae4": {
+        "id": "db175b21-767d-4bd5-9124-9ce7cbfa4ae4",
+        "parent": null,
+        "name": "testfilesIndunil",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "8fadfb0e-3024-4985-aa4c-52713d846160",
+          "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf",
+          "12b83b12-46e4-445d-9ffb-1f1bba0e6703"
+        ],
+        "isRemovable": false,
+        "filePath": "testfilesIndunil"
+      },
+      "8fadfb0e-3024-4985-aa4c-52713d846160": {
+        "id": "8fadfb0e-3024-4985-aa4c-52713d846160",
+        "parent": "db175b21-767d-4bd5-9124-9ce7cbfa4ae4",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testfilesIndunil/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf": {
+        "id": "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf",
+        "parent": "db175b21-767d-4bd5-9124-9ce7cbfa4ae4",
+        "name": "python1.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testfilesIndunil/python1.py",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "12b83b12-46e4-445d-9ffb-1f1bba0e6703": {
+        "id": "12b83b12-46e4-445d-9ffb-1f1bba0e6703",
+        "parent": "db175b21-767d-4bd5-9124-9ce7cbfa4ae4",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testfilesIndunil/__init__.py"
+      }
+    },
+    "rootNode": "db175b21-767d-4bd5-9124-9ce7cbfa4ae4",
+    "openFiles": [
+      "8fadfb0e-3024-4985-aa4c-52713d846160",
+      "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf"
+    ],
+    "currentFileId": "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/testfilesIndunil",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testfilesIndunil",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576740456782
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testfilesIndunil",
+      "url": "https://github.com/Indunil1992/testfilesIndunil"
+    }
+  }
+}
