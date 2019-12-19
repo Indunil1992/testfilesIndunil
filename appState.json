@@ -12,7 +12,8 @@
           "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf",
           "12b83b12-46e4-445d-9ffb-1f1bba0e6703",
           "23644114-c816-40a7-bdf8-aaafa4fbdc9d",
-          "3129512a-238e-44f6-8402-108202bc262c"
+          "3129512a-238e-44f6-8402-108202bc262c",
+          "af069388-6e78-4d47-9648-d38e3ae499f1"
         ],
         "isRemovable": false,
         "filePath": "testfilesIndunil"
@@ -82,6 +83,28 @@
         "children": [],
         "isRemovable": true,
         "filePath": "testfilesIndunil/json.json"
+      },
+      "af069388-6e78-4d47-9648-d38e3ae499f1": {
+        "id": "af069388-6e78-4d47-9648-d38e3ae499f1",
+        "parent": "db175b21-767d-4bd5-9124-9ce7cbfa4ae4",
+        "name": "sub1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "dd86784b-98e3-462a-9313-45653cf21467"
+        ],
+        "isRemovable": true,
+        "filePath": "testfilesIndunil/sub1"
+      },
+      "dd86784b-98e3-462a-9313-45653cf21467": {
+        "id": "dd86784b-98e3-462a-9313-45653cf21467",
+        "parent": "af069388-6e78-4d47-9648-d38e3ae499f1",
+        "name": "jsoninsub.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testfilesIndunil/sub1/jsoninsub.json"
       }
     },
     "rootNode": "db175b21-767d-4bd5-9124-9ce7cbfa4ae4",
@@ -89,9 +112,10 @@
       "8fadfb0e-3024-4985-aa4c-52713d846160",
       "5eb498cf-eaf7-4ec4-8c82-391d42ef9edf",
       "23644114-c816-40a7-bdf8-aaafa4fbdc9d",
-      "3129512a-238e-44f6-8402-108202bc262c"
+      "3129512a-238e-44f6-8402-108202bc262c",
+      "dd86784b-98e3-462a-9313-45653cf21467"
     ],
-    "currentFileId": "3129512a-238e-44f6-8402-108202bc262c",
+    "currentFileId": "dd86784b-98e3-462a-9313-45653cf21467",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -126,7 +150,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1576740730521
+    "lastSave": 1576740835530
   },
   "VCS_STATE": {
     "provider": "GitHub",
